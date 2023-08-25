@@ -12,4 +12,7 @@ To test my abilities and see what I am able to create utilizing HTML, CSS, and J
 
 **What problem does it solve?**
 It allows me to understand how to create a RESPONSIVE Navbar. 
+
+**What did I learn from this project?**
+I learned how to utilize @media into my styles.css and implement basic javascript code into my website. 
  
