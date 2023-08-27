@@ -1,6 +1,6 @@
 # NAVBAR - Web Development Challenge - 01
 
-Desktop: <img src="/Showcase-Desktop.png" alt="Desktop" width="600"/> Mobile: <img src="/Showcase-Mobile.png" alt="Mobile" width="200"/>
+Desktop: <img src="/Showcase-Desktop.png" alt="Desktop" width="400"/> Mobile: <img src="/Showcase-Mobile.png" alt="Mobile" width="200"/>
 
 
 
