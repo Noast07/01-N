@@ -1,10 +1,10 @@
 # NAVBAR - Web Development Challenge - 01
 
 Desktop:
-![DESKTOP](/Showcase-Desktop.png)
+<img src="/Showcase-Desktop.png" alt="Desktop" width="200"/>
 
 Mobile:
-![MOBILE](/Showcase-Mobile.png)
+<img src="/Showcase-Mobile.png" alt="Mobile" width="200"/>
 
 
 
