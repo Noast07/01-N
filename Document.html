@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+<link rel="stylesheet" href="Document_files/style.css"></head>
+<body>
+
+
+
+    <div class="header">
+        <div class="navbar">
+            <div class="nav-logo">
+                <h1 id="logo"><a href="http://127.0.0.1:5500/"><img src="Document_files/logo.png" alt="logo">Vermillion</a></h1><a href="http://127.0.0.1:5500/">    
+            </a></div><a href="http://127.0.0.1:5500/">
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            </a><ul class="nav-menu"><a href="http://127.0.0.1:5500/">
+                </a><li><a href="http://127.0.0.1:5500/"></a><a href="">Home</a></li>
+                <li><a href="">Shop</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="bg"></div>
+    
+
+
+    <script>
+        // JS TODO
+        // select hamburger & nav-menu
+        const hamburger = document.querySelector('.hamburger')
+        const NavClick = document.querySelector('.nav-menu')
+        // add event listener
+        hamburger.addEventListener('click', mobileMenu)
+        // nav menu function
+            // tog active 
+            // tog active
+        function mobileMenu() {
+            hamburger.classList.toggle('active')
+            NavClick.classList.toggle('active')
+        }
+
+    </script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
