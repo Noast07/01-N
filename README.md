@@ -1,5 +1,13 @@
 # NAVBAR - Web Development Challenge - 01
 
+Desktop:
+![DESKTOP](/Showcase-Desktop.png)
+
+Mobile:
+![MOBILE](/Showcase-Mobile.png)
+
+
+
 **Why did I create this project?**
 This is the first project I created on GitHUB showcasing the skills I learned utilizing HTML, CSS, and Javascript
 

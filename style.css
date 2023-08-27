@@ -14,7 +14,7 @@ body {
 }
 
 
-a,h1 {
+a,img {
     text-decoration: none;
     color: #fff;
     padding: 1rem;
@@ -50,19 +50,22 @@ a,h1 {
 }
 
 .nav-logo img {
-    width: 5%;
-    height: 5%;
+    max-height: 80px;
+    width: auto;
 }
 
-.nav-logo h1 {
-    width: 18px;
-    height: 10px;
+.bg {
+    background-image: url('background.jpeg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
 }
 
 
 
 @media only screen and (max-width: 768px) {
     .hamburger {
+        margin-bottom: 50px;
         display: block;
         padding: 1rem;
     }
